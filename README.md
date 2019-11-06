@@ -21,7 +21,7 @@ There are two modes. A step-wise mode, where the user has to press the Return (E
 To run in this mode:
 
 ```python
-python3 fini.py -in <input_file>
+python3 game_of_life.py -in <input_file>
 ```
 
 The Game will stop when `ctrl-C` is pressed. 
@@ -31,5 +31,5 @@ The other mode allows the Game to run for a preset number of iterations.
 Run with:
 
 ```python
-python3 fini.py -in <input_file> -it <int> 
+python3 game_of_life.py -in <input_file> -it <int> 
 ```

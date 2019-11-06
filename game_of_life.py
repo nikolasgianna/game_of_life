@@ -76,6 +76,9 @@ def main():
         except FileNotFoundError:
             print('\nNo such file found\n')
             sys.exit()
+        except IsADirectoryError:
+            print('\nNo such file found\n')
+            sys.exit()
     else:
         print ("No living cells in initial seed\n")
         sys.exit()
